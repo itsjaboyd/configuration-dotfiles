@@ -1,15 +1,21 @@
+set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'tpope/vim-fugitive'
-Plugin 'git://git.wincent.com/command-t.git'
-Plugin 'file:///home/gmarik/path/to/plugin'
-Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-Plugin 'KabbAmine/lazyList.vim'
+    Plugin 'VundleVim/Vundle.vim'
+    Plugin 'KabbAmine/lazyList.vim'
+    Plugin 'vim-autoformat/vim-autoformat'
+    Plugin 'vim-airline/vim-airline'
+    Plugin 'vim-airline/vim-airline-themes'
+    Plugin 'nathanaelkane/vim-indent-guides'
+    Plugin 'romainl/vim-cool'
+    Plugin 'rstacruz/vim-closer'
+    Plugin 'tpope/vim-fugitive'
+    Plugin 'preservim/nerdtree'
 call vundle#end()
 filetype plugin indent on
 
+syntax on
 set number relativenumber
 set tabstop=4
 set softtabstop=4
@@ -18,7 +24,6 @@ set cursorline
 set showmatch
 set incsearch
 set shellslash
-syntax on
 set background=dark
 set autoindent
 set shiftwidth=4
@@ -28,13 +33,12 @@ set hlsearch
 set lazyredraw
 set showcmd
 set backspace=indent,eol,start
+set clipboard=unnamed
 
-filetype plugin on
-" execute pathogen#infect()
-let g:vimwiki_list = [{'path': '~/Notes/', 'syntax': 'markdown', 'ext': 'md'}]
+" Useful user-defined functions
 
 " toggle between number and relative number
-function! ToggleNumber()
+function ToggleNumber()
     if(&relativenumber == 1)
         set norelativenumber
         set number
@@ -42,9 +46,10 @@ function! ToggleNumber()
         set relativenumber
     endif
 endfunc
+command! ToggleNumber call ToggleNumber()
 
 " Useful markdown functions for vim
-function! BoldWord()
+function BoldWord()
     silent execute "normal b"
     silent execute "normal i**"
     silent execute "normal e"
@@ -52,7 +57,7 @@ function! BoldWord()
 endfunction
 command! Bold call BoldWord()
 
-function! ItalicWord()
+function ItalicWord()
     silent execute "normal b"
     silent execute "normal i_"
     silent execute "normal e"
@@ -64,4 +69,27 @@ if has('persistent_undo')
   set undofile
   set undodir=$HOME/.vim/undo
 endif
+
+" Plugin settings configured on startup
+
+" Plugin 'vim-airline/vim-airline'
+let g:airline_theme='dark'
+
+" Plugin 'nathanaelkane/vim-indent-guides'
+let g:indent_guides_enable_on_vim_startup = 1
+let g:indent_guides_guide_size = 1
+let g:indent_guides_auto_colors = 0
+autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=red   ctermbg=7
+autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=green ctermbg=8
+
+" Plugin 'romainl/vim-cool'
+set hlsearch
+let g:cool_total_matches = 1
+
+" Plugin 'preservim/nerdtree'
+let g:NERDTreeFileLines = 1
+" Start NERDTree and put the cursor back in the other window.
+autocmd VimEnter * NERDTree | wincmd p
+" Exit Vim if NERDTree is the only window remaining in the only tab.
+autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | call feedkeys(":quit\<CR>:\<BS>") | endif
 

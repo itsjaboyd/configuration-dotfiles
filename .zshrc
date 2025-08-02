@@ -4,6 +4,9 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
+# Add local bin to PATH
+export PATH="/Users/jasonboyd/.local/bin:$PATH"
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -88,7 +91,7 @@ source $ZSH/oh-my-zsh.sh
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'
 else
-  export EDITOR='mvim'
+  export EDITOR='vim'
 fi
 
 # Compilation flags
@@ -100,13 +103,28 @@ fi
 # For a full list of active aliases, run `alias`.
 
 alias zshconfig="vim ~/.zshrc"
-alias cl="clear"
+alias vimconfig="vim ~/.vimrc"
+
+alias pip="pip3"
 alias python="python3"
+
+alias cl="clear"
+alias claer="clear"
+alias cler="clear"
+alias clare="clear"
+alias zource="source ~/.zshrc"
 
 # Personal functions definitions
 maconator () {lolcat ~/maconator.txt}
-clup () {cd ~ && clear && maconator}
+macfetch () {lolcat --force ~/maconator.txt | fastfetch --file-raw -}
+clup () {cd ~ && clear && macfetch}
 github-token () {cat ~/Security/github-token.txt | pbcopy}
 vimcheat () {vim ~/Reading/Resources/VimCheatSheet.md}
+clupdate () {clear; brew update; brew upgrade; lolcat --force ~/maconator.txt | fastfetch --file-raw -}
 
 source $HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/jasonboyd/.lmstudio/bin"
+# End of LM Studio CLI section
+

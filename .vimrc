@@ -1,5 +1,5 @@
 set nocompatible
-filetype off
+filetype off  
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
     Plugin 'VundleVim/Vundle.vim'
@@ -12,6 +12,7 @@ call vundle#begin()
     Plugin 'rstacruz/vim-closer'
     Plugin 'tpope/vim-fugitive'
     Plugin 'preservim/nerdtree'
+    Plugin 'vimwiki/vimwiki'
 call vundle#end()
 filetype plugin indent on
 
@@ -72,6 +73,17 @@ endif
 
 " Plugin settings configured on startup
 
+" Plugin 'vimwiki/vimwiki'
+function OpenObsidian()
+    silent execute "!open 'obsidian://open?vault=Notes&file=" . expand('%:r') . "'"
+    silent execute "redraw!"
+endfunction
+command! IO call OpenObsidian()
+nnoremap <leader>io :IO<CR>
+
+let g:vimwiki_list = [{'path': '~/Notes/', 'syntax': 'markdown', 'ext': 'md'}]
+
+
 " Plugin 'vim-airline/vim-airline'
 let g:airline_theme='dark'
 
@@ -92,4 +104,3 @@ let g:NERDTreeFileLines = 1
 autocmd VimEnter * NERDTree | wincmd p
 " Exit Vim if NERDTree is the only window remaining in the only tab.
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | call feedkeys(":quit\<CR>:\<BS>") | endif
-

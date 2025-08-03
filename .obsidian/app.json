@@ -1,0 +1,29 @@
+{
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "showLineNumber": false,
+  "mobileToolbarCommands": [
+    "editor:undo",
+    "editor:redo",
+    "editor:insert-wikilink",
+    "insert-template",
+    "editor:insert-embed",
+    "editor:insert-tag",
+    "editor:attach-file",
+    "editor:insert-link",
+    "editor:indent-list",
+    "table-editor-obsidian:left-align-column",
+    "editor:unindent-list",
+    "table-editor-obsidian:delete-row",
+    "table-editor-obsidian:delete-column",
+    "obsidian-map-view:quick-map-embed",
+    "obsidian-map-view:insert-geolink",
+    "editor:configure-toolbar"
+  ],
+  "showUnsupportedFiles": true,
+  "readableLineLength": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Inbox",
+  "attachmentFolderPath": "Inbox",
+  "newLinkFormat": "relative"
+}

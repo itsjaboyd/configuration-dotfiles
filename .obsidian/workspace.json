@@ -1,0 +1,338 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "1da7c590d254cc79",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "28a4bc26ecccaf4f",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "75f67766234756b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Growth/microresolutions.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "microresolutions"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6911b7c8aaeb820e",
+    "type": "split",
+    "children": [
+      {
+        "id": "1074bf3eac4a1237",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "92c3a54f7768ec67",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTime",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c11b88dcb27782d7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ea779d9dde4c2554",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "5ee37455fe181eb2",
+    "type": "split",
+    "children": [
+      {
+        "id": "94eab9426de334c0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "19160d4b65d70b77",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "cf91861e8661cfea",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Growth/microresolutions.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of microresolutions"
+            }
+          },
+          {
+            "id": "173863d808d21203",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "dbe43133e6d67da3",
+            "type": "leaf",
+            "state": {
+              "type": "sync",
+              "state": {},
+              "icon": "refresh-ccw",
+              "title": "Sync changes"
+            }
+          },
+          {
+            "id": "237b3c72e9001fa1",
+            "type": "leaf",
+            "state": {
+              "type": "map",
+              "state": {
+                "name": "Default",
+                "mapZoom": 1,
+                "mapCenter": {
+                  "lat": 39.90973623453719,
+                  "lng": -180
+                },
+                "query": "",
+                "queryError": false,
+                "chosenMapSource": 0,
+                "forceHistorySave": false,
+                "followActiveNote": false,
+                "embeddedHeight": 300,
+                "autoFit": false,
+                "lock": false,
+                "showLinks": false,
+                "linkColor": "red",
+                "markerLabels": "off"
+              },
+              "icon": "map-pin",
+              "title": "Interactive Map View"
+            }
+          },
+          {
+            "id": "7794855cb6458854",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Dailys/2025/July/2025-07-28.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 2025-07-28"
+            }
+          },
+          {
+            "id": "a81bdea151e2cbc6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Dailys/2025/July/2025-07-28.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2025-07-28"
+            }
+          },
+          {
+            "id": "bff4e6092f24f94d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "6f61924b7d4b92b6",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "dices",
+              "title": "Dice Tray"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": true,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": true,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "obsidian-book-search-plugin:Create new book note": false,
+      "templates:Insert template": false,
+      "obsidian-map-view:Open map view": true,
+      "templater-obsidian:Templater": false,
+      "random-note:Open random note": false,
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "homepage:Open homepage": false
+    }
+  },
+  "active": "75f67766234756b1",
+  "lastOpenFiles": [
+    "index.md",
+    "Growth/microresolutions.md",
+    "Dailys/2025/July/2025-08-03.md",
+    "Journal/2025/August.md",
+    "Journal/2025/July.md",
+    "Dailys/2025/July/2025-08-02.md",
+    "Dailys/2025/July/2025-07-29.md",
+    "Miscellaneous/kawasaki-zx6r-listing.md",
+    "Therapy/vulnerability-habits-anxiety.md",
+    "Therapy/noticing-negative-self-talk.md",
+    "Dailys/2025/July/2025-07-31.md",
+    "Dailys/2025/July/2025-07-30.md",
+    "Extras/Templates/daily-note.md",
+    "Extras/Scripts/annuality.js",
+    "Extras/Scripts/yesterday.js",
+    "Extras/Scripts/tomorrow.js",
+    "Extras/Scripts/journal.js",
+    "Extras/Scripts/dates.js",
+    "Journal/2024/July.md",
+    "Fitness/Workouts/2025/July/weight-lifting-29.md",
+    "Fitness/weight-recording.md",
+    "Fitness/personal-records.md",
+    "Fitness/Workouts/2025/July/weight-lifting-27.md",
+    "Fitness/Workouts/2025/July/farmington-tennis-sarah.md",
+    "Dailys/2025/July/2025-07-28.md",
+    "Dailys/2025/July/2025-07-27.md",
+    "Testing/Personal/secrets.md",
+    "newnote.md",
+    "Testing/Personal/newnote.md",
+    "Miscellaneous/shopping-wish-list.md",
+    "Miscellaneous/best-sources.md",
+    "Testing/Personal",
+    "Testing/Funny",
+    "Testing",
+    "Therapy",
+    "Fitness/Workouts/2025/July",
+    "Untitled.canvas",
+    "School/Spring2019/Web Applications/Homework/cs2610-Boyd-Jason-assn5/src/goldProj/charactersheet/static/charactersheet/loading2.gif",
+    "School/Spring2019/Web Applications/Homework/cs2610-Boyd-Jason-assn5/src/goldProj/charactersheet/static/charactersheet/loading1.gif",
+    "School/Spring2019/Web Applications/Homework/cs2610-Boyd-Jason-assn5/src/goldProj/charactersheet/static/charactersheet/loading0.gif",
+    "School/Spring2019/Web Applications/Homework/cs2610-Boyd-Jason-assn1/src/cs2610proj/charactersheet/static/charactersheet/loading2.gif",
+    "School/Spring2019/Web Applications/Homework/cs2610-Boyd-Jason-assn1/src/cs2610proj/charactersheet/static/charactersheet/loading1.gif",
+    "School/Spring2019/Web Applications/Homework/cs2610-Boyd-Jason-assn1/src/cs2610proj/charactersheet/static/charactersheet/loading0.gif",
+    "School/Spring2019/Web Applications/Clones/Assign2/cs2610-boyd-jason-assn1/src/cs2610proj/blog/static/blog/DannyWrestling.jpg",
+    "School/Spring2019/Web Applications/Clones/Assign2/cs2610-boyd-jason-assn1/src/cs2610proj/blog/static/blog/DannyPortrait.jpg",
+    "School/Spring2019/Web Applications/Clones/Assign2/cs2610-boyd-jason-assn1/src/cs2610proj/blog/static/blog/DannyBaseball.jpg",
+    "Reading/Covers/Atomic Habits.jpg"
+  ]
+}

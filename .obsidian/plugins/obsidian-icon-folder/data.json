@@ -1,0 +1,127 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiExperiment",
+      "LiBrainCircuit",
+      "LiBrain",
+      "LiInbox",
+      "LiChevronsUp"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "debugMode": false,
+    "lucideIconPackType": "native",
+    "useInternalPlugins": false
+  },
+  "School": {
+    "iconName": "LiApple",
+    "iconColor": "#00007d"
+  },
+  "Reading": {
+    "iconName": "LiBookOpenText",
+    "iconColor": "#7d7d7d"
+  },
+  "Projects": {
+    "iconName": "LiComputer",
+    "iconColor": "#007d7d"
+  },
+  "Music": {
+    "iconName": "LiMusic4",
+    "iconColor": "#007d00"
+  },
+  "Miscellaneous": "LiHourglass",
+  "Journal": {
+    "iconName": "LiPencilLine",
+    "iconColor": "#7d0000"
+  },
+  "Employment": {
+    "iconName": "LiBriefcase",
+    "iconColor": "#7d007d"
+  },
+  "Blogs": {
+    "iconName": "LiGalleryVerticalEnd",
+    "iconColor": "#644b96"
+  },
+  "README.md": "LiChevronRightCircle",
+  "Resources": {
+    "iconName": "LiPackage2",
+    "iconColor": "#004baf"
+  },
+  "People": {
+    "iconName": "LiPersonStanding",
+    "iconColor": "#7d0000"
+  },
+  "Extras": "LiFilePlus2",
+  "Dailys": {
+    "iconName": "LiCalendarDays",
+    "iconColor": "#7d0000"
+  },
+  "Meetings": {
+    "iconName": "LiHeartHandshake",
+    "iconColor": "#7d7d00"
+  },
+  "Subjects": {
+    "iconName": "LiSquareStack",
+    "iconColor": "#00007d"
+  },
+  "index.md": "LiKeyRound",
+  "Fitness": {
+    "iconName": "LiDumbbell",
+    "iconColor": "#007d00"
+  },
+  "Courses": {
+    "iconName": "LiBookCheck",
+    "iconColor": "#00007d"
+  },
+  "Motorcycling": {
+    "iconName": "LiBike",
+    "iconColor": "#007d00"
+  },
+  "Excalidraw": {
+    "iconName": "LiPaintbrush",
+    "iconColor": "#007d7d"
+  },
+  "Living": {
+    "iconName": "LiHome",
+    "iconColor": "#7d4b00"
+  },
+  "Weeklies": {
+    "iconName": "LiCalendarRange",
+    "iconColor": "#7d0000"
+  },
+  "Sleeping": {
+    "iconName": "LiMoonStar",
+    "iconColor": "#7d0000"
+  },
+  "Inbox": "LiInbox",
+  "Growth": {
+    "iconName": "LiChevronsUp",
+    "iconColor": "#7d0000"
+  },
+  "Therapy": {
+    "iconName": "LiBrain",
+    "iconColor": "#7d0000"
+  },
+  "Testing": "LiExperiment"
+}

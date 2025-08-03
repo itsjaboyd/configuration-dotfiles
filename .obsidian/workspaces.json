@@ -1,0 +1,453 @@
+{
+  "workspaces": {
+    "Default": {
+      "main": {
+        "id": "5324373015726ba8",
+        "type": "split",
+        "children": [
+          {
+            "id": "4509724f8bf84da7",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "e7a7b303c61786dc",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "index.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "index"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "6911b7c8aaeb820e",
+        "type": "split",
+        "children": [
+          {
+            "id": "1074bf3eac4a1237",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "92c3a54f7768ec67",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "byCreatedTime",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "c11b88dcb27782d7",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "sound",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "ea779d9dde4c2554",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 200
+      },
+      "right": {
+        "id": "5ee37455fe181eb2",
+        "type": "split",
+        "children": [
+          {
+            "id": "94eab9426de334c0",
+            "type": "tabs",
+            "dimension": 49.84126984126984,
+            "children": [
+              {
+                "id": "19160d4b65d70b77",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {},
+                  "icon": "lucide-git-fork",
+                  "title": "Graph view"
+                }
+              },
+              {
+                "id": "173863d808d21203",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "dbe43133e6d67da3",
+                "type": "leaf",
+                "state": {
+                  "type": "sync",
+                  "state": {},
+                  "icon": "refresh-ccw",
+                  "title": "Sync changes"
+                }
+              },
+              {
+                "id": "237b3c72e9001fa1",
+                "type": "leaf",
+                "state": {
+                  "type": "map",
+                  "state": {
+                    "name": "Default",
+                    "mapZoom": 1,
+                    "mapCenter": {
+                      "lat": 39.90973623453719,
+                      "lng": -180
+                    },
+                    "query": "",
+                    "queryError": false,
+                    "chosenMapSource": 0,
+                    "forceHistorySave": false,
+                    "followActiveNote": false,
+                    "embeddedHeight": 300,
+                    "autoFit": false,
+                    "lock": false,
+                    "showLinks": false,
+                    "linkColor": "red",
+                    "markerLabels": "off"
+                  },
+                  "icon": "map-pin",
+                  "title": "Interactive Map View"
+                }
+              }
+            ]
+          },
+          {
+            "id": "f41da0f07300d5f0",
+            "type": "tabs",
+            "dimension": 50.15873015873016,
+            "children": [
+              {
+                "id": "cf91861e8661cfea",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "index.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of index"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 200
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "command-palette:Open command palette": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": true,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": true,
+          "canvas:Create new canvas": false,
+          "daily-notes:Open today's daily note": false,
+          "obsidian-book-search-plugin:Create new book note": false,
+          "templates:Insert template": false,
+          "obsidian-map-view:Open map view": true,
+          "templater-obsidian:Templater": false,
+          "random-note:Open random note": false,
+          "workspaces:Manage workspace layouts": false,
+          "obsidian-excalidraw-plugin:New drawing": false,
+          "homepage:Open homepage": false
+        }
+      },
+      "active": "cf91861e8661cfea",
+      "mtime": "2025-06-30T09:31:12-06:00"
+    },
+    "Reading": {
+      "main": {
+        "id": "5324373015726ba8",
+        "type": "split",
+        "children": [
+          {
+            "id": "4509724f8bf84da7",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "e7a7b303c61786dc",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "index.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "index"
+                }
+              },
+              {
+                "id": "f6cbbf6cbd9a9c0d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Reading/Books/psycho-cybernetics.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "psycho-cybernetics"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "6911b7c8aaeb820e",
+        "type": "split",
+        "children": [
+          {
+            "id": "1074bf3eac4a1237",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "92c3a54f7768ec67",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "byCreatedTime",
+                    "autoReveal": true
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "c11b88dcb27782d7",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "sound",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "ea779d9dde4c2554",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 200
+      },
+      "right": {
+        "id": "5ee37455fe181eb2",
+        "type": "split",
+        "children": [
+          {
+            "id": "94eab9426de334c0",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "19160d4b65d70b77",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {},
+                  "icon": "lucide-git-fork",
+                  "title": "Graph view"
+                }
+              },
+              {
+                "id": "cf91861e8661cfea",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Reading/Books/psycho-cybernetics.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of psycho-cybernetics"
+                }
+              },
+              {
+                "id": "173863d808d21203",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "dbe43133e6d67da3",
+                "type": "leaf",
+                "state": {
+                  "type": "sync",
+                  "state": {},
+                  "icon": "refresh-ccw",
+                  "title": "Sync changes"
+                }
+              },
+              {
+                "id": "237b3c72e9001fa1",
+                "type": "leaf",
+                "state": {
+                  "type": "map",
+                  "state": {
+                    "name": "Default",
+                    "mapZoom": 1,
+                    "mapCenter": {
+                      "lat": 39.90973623453719,
+                      "lng": -180
+                    },
+                    "query": "",
+                    "queryError": false,
+                    "chosenMapSource": 0,
+                    "forceHistorySave": false,
+                    "followActiveNote": false,
+                    "embeddedHeight": 300,
+                    "autoFit": false,
+                    "lock": false,
+                    "showLinks": false,
+                    "linkColor": "red",
+                    "markerLabels": "off"
+                  },
+                  "icon": "map-pin",
+                  "title": "Interactive Map View"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 200
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "command-palette:Open command palette": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": true,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": true,
+          "canvas:Create new canvas": false,
+          "daily-notes:Open today's daily note": false,
+          "obsidian-book-search-plugin:Create new book note": false,
+          "templates:Insert template": false,
+          "obsidian-map-view:Open map view": true,
+          "templater-obsidian:Templater": false,
+          "random-note:Open random note": false,
+          "workspaces:Manage workspace layouts": false,
+          "obsidian-excalidraw-plugin:New drawing": false,
+          "homepage:Open homepage": false
+        }
+      },
+      "active": "92c3a54f7768ec67",
+      "mtime": "2025-06-30T09:34:12-06:00"
+    }
+  },
+  "active": "Reading"
+}

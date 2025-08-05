@@ -17,7 +17,7 @@ call vundle#end()
 filetype plugin indent on
 
 syntax on
-set number relativenumber
+set number norelativenumber
 set tabstop=4
 set softtabstop=4
 set expandtab
@@ -33,6 +33,7 @@ set wildmenu
 set hlsearch
 set lazyredraw
 set showcmd
+set textwidth=80
 set backspace=indent,eol,start
 set clipboard=unnamed
 
@@ -66,6 +67,12 @@ function ItalicWord()
 endfunction
 command! Ital call ItalicWord()
 
+function FormatJson()
+    silent execute "%!python3 -m json.tool"
+endfunction
+command! FormatJson call FormatJson()
+nnoremap <leader>fj :FormatJson<CR>
+
 if has('persistent_undo')
   set undofile
   set undodir=$HOME/.vim/undo
@@ -83,12 +90,14 @@ nnoremap <leader>io :IO<CR>
 
 let g:vimwiki_list = [{'path': '~/Notes/', 'syntax': 'markdown', 'ext': 'md'}]
 
+" Plugin 'vim-autoformat/vim-autoformat'
+nnoremap <leader>af :Autoformat<CR>
 
 " Plugin 'vim-airline/vim-airline'
 let g:airline_theme='dark'
 
 " Plugin 'nathanaelkane/vim-indent-guides'
-let g:indent_guides_enable_on_vim_startup = 1
+let g:indent_guides_enable_on_vim_startup = 0
 let g:indent_guides_guide_size = 1
 let g:indent_guides_auto_colors = 0
 autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=red   ctermbg=7
